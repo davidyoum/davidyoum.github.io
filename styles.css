@@ -1,31 +1,49 @@
 body {
     background-color: #d8cbc4;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+}
+
+#links {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+#links a {
+    color: #ffffff;
 }
 
 #header {
     color: #ffffff;
+    font-size: 35px;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     position: absolute;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     background-color: #6a4a3a;
     top: 0;
     left: 0;
     width: 100%;
 }
+
 #body {
-    position: absolute;
+    position: relative;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding-top: 150px;
     left: 0;
     width: 100%;
-    margin: 0;
+    font-size: 20px;
 }
 
-#footer {
-    position: fixed;
+#name {
+    position: absolute;
     font-family: 'Roboto Mono', monospace;
     bottom: 0;
     width: 100%;
@@ -35,10 +53,11 @@ body {
 }
 
 #socials {
-    position: fixed;
+    position: absolute;
     font-family: 'Roboto Mono', monospace;
     bottom: 0;
     width: 20%;
+    height: 20;
     left: 0;
     padding-bottom: 10px;
     padding-left: 1%;
