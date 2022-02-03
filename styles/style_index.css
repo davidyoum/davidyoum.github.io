@@ -2,7 +2,7 @@ body {
     background-color: #d8cbc4;
     position: relative;
     padding-bottom: 58px;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 #links {
@@ -10,22 +10,18 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 25px;
+    padding-top: 40px;
     padding-right: 40px;
-    padding-top: 25px;
 }
 
-#links a {
-    color: #ffffff;
-}
-
-#header {
+#title {
     color: #ffffff;
     font-size: 35px;
     font-family: 'Roboto Mono', monospace;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
     position: absolute;
-    padding-top: 1px;
-    padding-bottom: 1px;
     background-color: #6a4a3a;
     top: 0;
     left: 0;
@@ -48,7 +44,6 @@ body {
     bottom: 0;
     width: 100%;
     right: 0;
-    padding-bottom: 0.1%;
     background-color: #a08679;
 }
 
@@ -62,6 +57,10 @@ body {
     padding-bottom: 10px;
     padding-left: 1%;
     background-color: #a08679;
+}
+
+#links a:link, #links a:visited {
+    color: #ffffff;
 }
 
 a:link, a:visited {

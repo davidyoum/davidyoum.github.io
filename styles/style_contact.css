@@ -1,0 +1,29 @@
+body {
+    background-color: #d8cbc4;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+}
+
+#links {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+#title {
+    color: #ffffff;
+    padding-left: 30px;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    position: absolute;
+    background-color: #6a4a3a;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
