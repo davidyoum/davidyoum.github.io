@@ -14,7 +14,7 @@ html, body {
     border-radius: 0 0 10px 10px;
     position: absolute;
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 30px;
     padding-bottom: 20px;
     color: aliceblue;
@@ -44,13 +44,44 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-#bod {
+#title {
     position: absolute;
-    margin-top: 150px;
+    margin-top: 120px;
     width: 100%;
+    font-size: xx-large;
     height: 200px;
     text-align: center;
-    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+#paragraph {
+    position: absolute;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30px;
+    padding-left: 500px;
+    padding-right: 20px;
+    right: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+
+#bottom {
+    position: absolute;
+    margin-top: 850px;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    padding-left: 50px;
+}
+
+#picture {
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+    height: 200px;
+    padding-left: 50px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
