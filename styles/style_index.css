@@ -47,6 +47,7 @@ a:link, a:visited {
 #body {
     position: relative;
     margin-top: 10%;
+    background-color: aqua;
     text-align: center;
     font-size: 50px;
     color: rgb(255, 255, 255);
